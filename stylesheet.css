@@ -111,8 +111,6 @@ body {
 ol,
 ul {
   list-style: none;
-  margin-left: 10px;
-  text-align: left;
 }
 blockquote,
 q {
@@ -152,16 +150,8 @@ html {
   text-align: center;
   font-size: 30px;
   margin: 45px 10px 10px;
-  text-decoration-line: underline;
-  text-decoration-color: #5a0404;
 }
-.title2{
-    text-decoration-style: dotted;
-    text-align: left;
-    font-size: 25px;
-    text-decoration-line: underline;
-    text-decoration-color: aqua;
-}
+
 .launches {
   padding: 0 10px;
   display: flex;
@@ -259,5 +249,5 @@ html {
 }
 
 .details::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
