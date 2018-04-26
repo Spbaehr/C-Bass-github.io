@@ -91,5 +91,14 @@ function addText(element, text) {
       body.appendChild(launches);
     });
   }
+
+  function setColor(event) {
+      event.target.style.color = "red";
+  }
   
+function attachClicker(){
+    let h1= document.querySelector("h1");
+    h1.onclick = setColor;
+}
+
   document.addEventListener('DOMContentLoaded', loadLaunches);
